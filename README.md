@@ -10,10 +10,6 @@ Here
 | 1    | Warm-up, Git drills, README       | `week1/*`   |
 | 2    | _(leave blank for now)_           |             |
 
-## How to Run
-```bash
-g++ -std=c++17 warmup/main.cpp -o warmup && ./warmup
-```
 
 ## Tool Stack
 
