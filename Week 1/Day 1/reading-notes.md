@@ -1,0 +1,1 @@
+My primary takeaways from taking this course are that I need to learn how to write more complex code, that I can comprehend coding systems more intuitively, and that I can learn about software engineering.
