@@ -1,0 +1,8 @@
+* 5c16a3f (HEAD -> week1/day2) Add files via upload
+* e62543a Create README.md
+* 55834da Delete Week 1 directory
+* bc3584d Create Day 1
+* 858041d Delete Week 1/Day 1 directory
+* 34f40f8 Create journal.md
+* b9adc76 Create README.md
+* 7896c74 Initial commit
