@@ -8,8 +8,6 @@ This directory contains the CMake-based `project-calc`
 
 > *Lecture track: Software Construction & Design*
 
-![CI](https://github.com/<your-user>/CSCE-331/actions/workflows/cmake-test.yml/badge.svg?branch=main)
-
 A miniature C++17 library used to practice clean architecture, test‑driven development (TDD), and modern CMake.  Functions now implemented:
 
 | Function   | Purpose                                                        | Notes                                        |
