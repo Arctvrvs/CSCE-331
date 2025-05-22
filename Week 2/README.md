@@ -15,7 +15,7 @@ A miniature C++17 library used to practice clean architecture, test‑driven dev
 | `add`      | integer addition                                               | trivial demo                                 |
 | `sub`      | subtraction                                                    |                                              |
 | `mul`      | multiplication                                                 |                                              |
-| `div`      | division that **throws** `std::invalid_argument` when `b == 0` |                                              |
+| `div_mine`      | division that **throws** `std::invalid_argument` when `b == 0` |                                              |
 | `safe_div` | returns `std::optional<int>` instead of throwing               | demonstrates exception‑free error signalling |
 
 ---
