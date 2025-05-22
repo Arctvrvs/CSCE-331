@@ -23,7 +23,7 @@ jobs:
         uses: seanmiddleditch/gha-setup-ninja@v3
 
       - name: Configure CMake
-        run: cmake -S week2/project-calc -B build -DCMAKE_BUILD_TYPE=Debug -G Ninja
+        run: cmake -S "week 2/project-calc" -B build -DCMAKE_BUILD_TYPE=Debug -G Ninja
 
       - name: Build
         run: cmake --build build --config Debug --parallel
