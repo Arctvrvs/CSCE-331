@@ -8,22 +8,23 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest            # or ubuntu-latest if you prefer GCC/Clang
+    runs-on: windows-latest
+
     steps:
     - uses: actions/checkout@v4
 
-    # ---- Install Ninja or MinGW ----
+    # Install Ninja
     - name: Install Ninja
       if: runner.os == 'Windows'
       uses: seanmiddleditch/gha-setup-ninja@v3
 
-    # ---- Configure & Build ----
+    # Configure & build
     - name: Configure CMake
-      run: cmake -S week2/project-calc -B build -DCMAKE_BUILD_TYPE=Debug <GENERATORS>
+      run: cmake -S week2/project-calc -B build -DCMAKE_BUILD_TYPE=Debug -G Ninja
 
     - name: Build
       run: cmake --build build --config Debug --parallel
 
-    # ---- Test ----
+    # Run tests
     - name: Run tests
       run: ctest --test-dir build --output-on-failure
