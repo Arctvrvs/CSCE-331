@@ -1,7 +1,5 @@
-# Week 2 – **project‑calc**
-
 ![C/C++ CI](https://github.com/Arctvrvs/CSCE-331/actions/workflows/cmake-test.yml/badge.svg?branch=main)
-
+# Week 2 – **project‑calc**
 
 This directory contains the CMake-based `project-calc` 
 
